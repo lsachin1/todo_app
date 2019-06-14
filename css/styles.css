@@ -1,0 +1,83 @@
+.taskListContainer, .reminderListContainer {
+	margin: 0px auto;
+	width: 700px;
+}
+
+.addTaskTitle {
+	margin:30px;
+  	display:flex;
+  	flex-direction:row;
+  	width:700px;
+ 	text-align: :center;
+}
+
+.taskList, .reminderList {
+	margin:30px;
+  	display:flex;
+  	flex-direction:row;
+  	width:700px;
+  	border:1px black solid;
+}
+
+.taskList > div {
+	flex:1 1 auto;
+  	1border:1px red solid;
+  	text-align:left;
+	margin:5px;  /* and that, will result in a 10px gap */
+}
+
+.reminderList > div {
+	flex:1 1 auto;
+  	1border:1px red solid;
+  	text-align:left;
+	margin:5px;  /* and that, will result in a 10px gap */
+}
+
+.taskList .clsDesc {
+	width: 250px;
+	word-wrap: break-word;
+}
+
+.taskList .clsTitle {
+	width: 200px;
+}
+
+.taskAddContainer {
+	margin: 0px auto;
+	width: 700px;
+}
+
+.taskAddContainer div {
+	padding: 15px;
+}
+
+.taskAddContainer .errorMessage {
+	color: red;
+}
+
+.title{
+	border-radius: 18px;
+    background: yellow;
+    padding: 20px; 
+    width: 700px;
+}
+
+.addTask {
+	border-radius: 18px;
+	padding: 20px; 
+	width: 200px;
+}
+
+.statusMessage {
+	text-align: center;
+}
+
+.fancybox-wrap .setupReminder div {
+	padding:5px;
+}
+
+h1 a, .clsTitle a, .clsEdit a, .clsDelete a, .clsSendReminder a{
+	text-decoration: none;
+    color: black;
+    cursor:pointer;
+}
