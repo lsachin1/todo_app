@@ -13,7 +13,11 @@ Installation
 2. This application has been developed using PHP 7.3.1
 3. You can view the database at http://localhost/phpmyadmin
 4. Install PHPUnit for unit testing, install using composer
-	4.1 Visit https://getcomposer.org/download/ (follow the instruction)
+	4.1 
+	 	a. php -r "copy('https://getcomposer.org/installer', 'composer-setup.php');"
+         	b.php -r "if (hash_file('sha384', 'composer-setup.php') === '48e3236262b34d30969dca3c37281b3b4bbe3221bda826ac6a9a62d6444cdb0dcd0615698a5cbe587c3f0fe57a54d8f5') { echo 'Installer verified'; } else { echo 'Installer corrupt'; unlink('composer-setup.php'); } echo PHP_EOL;"
+        	c.php composer-setup.php
+        	d.php -r "unlink('composer-setup.php');"
 	4.2 created composer.json file
 	4.3 save the composer.json with following code
 			{
