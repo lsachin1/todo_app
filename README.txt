@@ -9,7 +9,7 @@
 Installation
 -----------------------------------------------------------------------------------------------------------------------------------------
 
-1. Install XAMPP or WAMP OR MAMP to install php, mysql, Apache/Nginx locally
+1. Install XAMPP or WAMP OR MAMP to install php, mysql, Apache/Nginx locally. Save your code inside /todo_app folder inside htdocs
 2. This application has been developed using PHP 7.3.1
 3. You can view the database at http://localhost/phpmyadmin
 4. Install PHPUnit for unit testing, install using composer
